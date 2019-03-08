@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Component id="newOrderLabel" min="-2" pref="90" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+              <Component id="clockInOutLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="managerLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="viewOrdersButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="viewOrdersLabel" max="32767" attributes="0"/>
+                          <Component id="newOrderButton" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
+                      <Component id="clockInOutButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="129" max="32767" attributes="0"/>
+                      <Component id="managerButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="newOrderLabel" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
+                  <Component id="clockInOutLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="managerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="newOrderButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="clockInOutButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="managerButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="viewOrdersLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="viewOrdersButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="142" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="newOrderLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="New order"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="clockInOutLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clock in/out"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="managerLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manager"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="newOrderButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newOrderButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="clockInOutButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clockInOutButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="managerButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="managerButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="viewOrdersLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="View Orders"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="viewOrdersButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewOrdersButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
