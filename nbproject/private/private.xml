@@ -3,7 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/Alex/Desktop/POSApplication/src/posbackend/Employee.java</file>
+=======
+<<<<<<< HEAD
+            <file>file:/C:/Users/alexm/OneDrive/Desktop/POSApplication/src/posbackend/MainFrame.java</file>
+=======
+            <file>file:/C:/Users/Alex/Desktop/POSApplication/src/posbackend/Employee.java</file>
+>>>>>>> d1672c05e031d9a6da5f3e297e1a92c9cc14403a
+>>>>>>> d30b62fd651bfb1c84f99afafe6555d0039e0cc8
         </group>
     </open-files>
 </project-private>
